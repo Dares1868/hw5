@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border-collapse: collapse;
+        padding: 16px;
+      }
+      .border {
+        border-bottom: 1px solid #e0e0e0;
+      }
+      .table_container {
+        width: 600px;
+        background-color: #fff;
+        margin: 40px auto;
+        padding: 24px;
+        box-shadow: 2px 2px 7px 5px grey;
+      }
+      .logo {
+        width: 120px;
+        height: 56px;
+      }
+      .header_text {
+        text-align: justify;
+        line-height: 24px;
+        padding-bottom: 8px;
+        border: 24px;
+      }
+      .title {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 36px;
+        width: 552px;
+        margin-bottom: 8px;
+        color: #101828;
+      }
+      th {
+        text-align: justify;
+        font-weight: 600;
+      }
+      .col_item {
+        color: #667085;
+        width: 390px;
+      }
+      .col_other {
+        color: #101828;
+        text-align: right;
+      }
+      .paragraf {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #667085;
+      }
+      td {
+        font-weight: 400;
+      }
+      .logo_img {
+        width: 120px;
+        height: 56px;
+        text-align: left;
+        margin: 0 auto;
+      }
+      .table_footer td {
+        width: 50%;
+        vertical-align: bottom;
+        border: 24px;
+      }
+      .t1 {
+        color: #101828;
+        font-size: 16px;
+        font-weight: 600;
+        width: 264px;
+      }
+      .t2 {
+        color: #667085;
+        font-weight: 400;
+        font-size: 15px;
+        width: 264px;
+      }
+      .left_footer {
+        text-align: left;
+      }
+      .footer_left p {
+        margin: 4px 0;
+      }
+      .footer_right {
+        text-align: right;
+        font-size: 14px;
+        color: #667085;
+      }
+      .link {
+        text-align: center;
+        color: #98a2b3;
+        font-weight: 400;
+        font-size: 15px;
+        margin-bottom: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="table_container">
+      <table>
+        <thead style="text-align: center">
+          <tr>
+            <td class="all_header" colspan="3">
+              <a
+                class="link"
+                href="https://ru.wikipedia.org/wiki/Acme_Corporation"
+                >View in browser</a
+              >
+              <div>
+                <img
+                  src="images/photo_2024-12-03_22-30-44.jpg"
+                  alt="logo"
+                  class="logo"
+                />
+                <div class="header_text">
+                  <p class="title">Functional Style</p>
+                  <p class="paragraf">
+                    Combine practicality and style effortlessly with our
+                    furniture, offering functional designs that enhance your
+                    living space
+                  </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border">
+            <th class="col_item">Item</th>
+            <th class="col_other">Qty</th>
+            <th class="col_other">Price</th>
+          </tr>
+          <tr class="border">
+            <td class="col_item">Elegant Feast</td>
+            <td class="col_other">2</td>
+            <td class="col_other">$499.99</td>
+          </tr>
+          <tr class="border">
+            <td class="col_item">Modern Fusion</td>
+            <td class="col_other">2</td>
+            <td class="col_other">$699.99</td>
+          </tr>
+          <tr class="border">
+            <td class="col_item">Rustic Charm</td>
+            <td class="col_other">2</td>
+            <td class="col_other">$399.99</td>
+          </tr>
+          <tr class="border">
+            <th class="col_item">Total</th>
+            <td class="col_other">6</td>
+            <th class="col_other">$3194.99</th>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">
+              <table class="table_footer">
+                <tbody>
+                  <tr>
+                    <td class="footer_left">
+                      <img
+                        src="images/photo_2024-12-03_22-30-44.jpg"
+                        alt="logo"
+                        class="logo_img"
+                      />
+                      <p class="t1">Acme corporation</p>
+                      <p class="t2">Think different</p>
+                    </td>
+                    <td class="footer_right">
+                      123 Main Street Anytown, CA 12345
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>
