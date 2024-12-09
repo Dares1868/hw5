@@ -1,3 +1,5 @@
+@import url(reset.css);
+@import url(normalize.css);
 table,
 th,
 td {
@@ -7,7 +9,7 @@ td {
 .border {
   border-bottom: 1px solid #e0e0e0;
 }
-.table_container {
+#table_container {
   width: 600px;
   background-color: #fff;
   margin: 40px auto;
